@@ -6,66 +6,85 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
-.home-text-container{
-    display: grid;
-    grid-template-rows: repeat(1fr, 3fr, 1fr);
-    height: 100%;
-    color: white;
-    position: relative;
-    padding: 2rem;
+.home-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
     width: 90%;
-    overflow: hidden;
-    border: 1px solid #fff;
-}
-
-
-.home-section-text{
-    grid-row: 2 / 3;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.Intro-left-side{
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    height: 100%;
+    font-family: 'Instrument Serif', serif;
 }
 
 .name-wrapper{
-    position: relative;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    margin-top: 0.25rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    margin: 10px;
+    font-family: "Instrument Serif", serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Left-side-container{
+    border: 1px solid red;
+}
+
+.Intro-left-side{
+    font: 'Instrument Serif', serif;
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
 }
 
 .name{
-    font-size: 4rem;
-    color: black;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font: 'Instrument Serif', serif;
     margin: 0;
 }
 
 .job-title{
-    position: absolute;
-  right: -100px;
-  bottom: -1.5rem;
-  color: white;
-  font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+    font: 'Instrument Serif', serif;
+    margin: 0;
+}
+
+.Button-Container{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: right;
+}
+
+.Button-Container button a{
+    text-decoration: none;
+    font-family: 'Instrument Serif', serif;
 }
 
 .continue-button{
-    position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  background: white;
-  color: #033333;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
+    background-color: #fff;
+    color: #07393C;
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.continue-button:hover{
+    background-color: #07393C;
+    color: #fff;
 }
