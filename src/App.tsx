@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import MyProjects from './Pages/Projects'
+import TechStack from './Pages/WorkWith'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<MyProjects />} />
+          <Route path="/techstack" element={<TechStack />} />
         </Routes>
       </Router>
     </>
