@@ -29,7 +29,7 @@ const TechStack = () =>{
             <div className="Info-Container">
                 <h2>Tools & Frameworks</h2>
                 <ul>
-                    <li>React.Js</li>
+                    <li>React</li>
                     <li>Git & Github</li>
                     <li>VScode</li>
                     <li>npm / vite</li>
