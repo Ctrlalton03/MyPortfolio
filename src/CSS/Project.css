@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+@font-face {
+    font-family: InstrumentSerif;
+    src: url('../fonts/InstrumentSerif-Regular.ttf');
+}
+
+
+
+
+
+.ProjectsHeader{
+    font-family: "Kalnia";
+}

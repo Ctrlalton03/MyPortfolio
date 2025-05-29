@@ -12,11 +12,11 @@ const ProjectCard = ({ imageSrc, title, description, Linkto }: ProjectCardProps)
         <>
         <div className="PorjectCardContainer">
             <div className='ProjectCard'>
-                <h1>{title}</h1>
+                <h1 className='CardHeader'>{title}</h1>
                 <img src={imageSrc} alt={title} className='ImageSize' />
-                <p>{description}</p>
+                <p className='Cardtxt'>{description}</p>
                 <a href={Linkto} target="blank" rel="noopener noreferrer" className='ProjectLink'>
-                    <button>View My Project</button>
+                    <button className='CardButton'>View My Project</button>
                 </a>
             </div>
         </div>
