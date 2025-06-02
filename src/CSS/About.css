@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+@font-face {
+    font-family: InstrumentSerif;
+    font-style: normal;
+    src: url(../fonts/InstrumentSerif-Regular.ttf) format('truetype');
+}
+
+.About-Container{
+    background-color: #07393C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.About-Header{
+    font-family: "Kalnia";
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.Header-underline{
+    width: 90%;
+    height: 10px;
+    background-color: white;
+}
+
+.About-Image-Container{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px ;
+}
+
+.About-header-Container{
+    margin: 0;
+
+}
+
+.About-Header-Text{
+    font-family: "Kalnia";
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.About-Text{
+    font-family: "InstrumentSerif";
+    color: white;
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: justify;
+    margin-top: 5px;
+    text-align: center;
+}
