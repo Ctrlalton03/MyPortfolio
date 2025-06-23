@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+@font-face {
+    font-family: InstrumentSerif;
+    src: url('../fonts/InstrumentSerif-Regular.ttf');
+}
+
+
+.ContactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.ContactHeader {
+    font-family: "Kalnia";
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ContactTitle {
+    font-family: "Kalnia";
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ContactDescription {
+    text-wrap: wrap;
+    font-family: "InstrumentSerif";
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
