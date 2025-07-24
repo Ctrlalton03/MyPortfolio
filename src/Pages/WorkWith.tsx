@@ -59,7 +59,7 @@ const TechStack = () =>{
                 </p>
             </div>
             <div>
-                <button className="Project-button"><a href="/projects">Check Out My Project</a></button>
+                <button className="Project-button"><a href="/projects">Check Out My Projects</a></button>
             </div>
         </div>
         </>

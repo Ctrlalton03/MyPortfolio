@@ -1,7 +1,7 @@
 import ProjectCard from "../Components/ProjectCard"
 import HavenHub from '../Images/havenhub.png'
 import MomentImg from '../Images/momentmanager.png'
-import GoldenRetreat from '../Images/thegoldenretreat.png'
+import FlavorFight from '../Images/flavorfight.netlify.app_.png'
 import '../CSS/Project.css'
 
 
@@ -27,10 +27,10 @@ const MyProjects = () => {
                 />
 
             <ProjectCard  
-                title="The Golden Retreat" 
-                imageSrc={GoldenRetreat}
-                description="."
-                Linkto="https://thegoldenretreat.netlify.app/"
+                title="Flavor Fight" 
+                imageSrc={FlavorFight}
+                description="FlavorFight is an interactive web application designed to help users discover their next meal in a fun and engaging way. Through a three-round elimination game, users select their preferred food options from a series of randomized choices. After narrowing down their selection, the app uses the user’s location to recommend nearby restaurants that serve the winning dish. FlavorFight combines playful decision-making with practical restaurant suggestions, making it easy and enjoyable to solve the classic “What should I eat?” dilemma."
+                Linkto="https://flavorfight.netlify.app/"
                 />
             </div>
         </div>

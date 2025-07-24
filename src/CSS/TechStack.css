@@ -41,6 +41,7 @@
 .Info-Container h2{
     font-family: "InstrumentSerif";
     color: white;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
@@ -56,6 +57,7 @@
 }
 
 .Info-Container ul li{
+    color: #fff;
     width: 100%;
     text-align: center;
     padding: 5px;
